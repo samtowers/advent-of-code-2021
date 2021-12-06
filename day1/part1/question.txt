@@ -29,3 +29,6 @@ In this example, there are 7 measurements that are larger than the previous meas
 
 How many measurements are larger than the previous measurement?
 
+Input data:
+https://adventofcode.com/2021/day/1/input
+
