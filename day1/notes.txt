@@ -1,0 +1,7 @@
+process list 
+count = 0
+foreach item at idx
+    if first, skip
+    else if item[i] > item[i-1]
+        count++
+print count
