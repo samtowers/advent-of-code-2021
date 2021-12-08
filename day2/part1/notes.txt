@@ -1,1 +1,12 @@
-parse
+zeroCount
+oneCount
+
+// what about about equal number of 1s & 0s?
+// priority = 1
+arr_items = [[1,0],[1,0], [0,1]]
+count=3
+half = 1.5
+ 
+reduced := reduce to [2,1]
+if reduced[0] >= half // prioritise 1
+

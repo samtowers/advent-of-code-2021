@@ -15,12 +15,12 @@ def parse_coord_delta(str):
             return [0, int(amount)]
     
 # todo types & docs
-def add_elementwise(a,b):
+def add_element_wise(a,b):
     return list(map(lambda x,y: x+y, a,b))
 
 coords_x_y = [0,0]
 for str in get_input():
-    coords_x_y = add_elementwise(coords_x_y, parse_coord_delta(str))
+    coords_x_y = add_element_wise(coords_x_y, parse_coord_delta(str))
     
 result = coords_x_y[0] * coords_x_y[1]
 print('What do you get if you multiply your final horizontal position by your final depth?')

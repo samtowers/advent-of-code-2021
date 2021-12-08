@@ -1,1 +1,2 @@
 https://learnxinyminutes.com/docs/python/
+https://www.pythontutorial.net/python-basics/python-syntax/
