@@ -1,0 +1,40 @@
+find winning board. 
+store last number called before it won.
+
+score = sum of remaining (uncalled) numbers * last called number
+
+popluate rows/cols (boardData)
+    rows = boardData
+    col = []
+    // populate col data
+    for rowArr in boardData
+        for colIdx => num in rowArr
+            col[colIdx][] = num
+            
+
+"""
+get callnums and cards
+use card class
+has_bingo = card.mark_num(num)
+if has_bingo
+    result = num *  card.sum_remaining_nums
+    
+BingoCard
+    list rows = [ 5 items ] 
+    list cols = ditto
+    
+    init (card[rows][cols])
+        popluate rows/cols
+        
+    mark num
+        delete from rows and cols.
+        if row or col is empty:
+            return True (bingo)
+        
+    sum for remaining nums:
+        sum = 0
+        for each row item
+            sum += item
+        return sum
+"""
+#e
